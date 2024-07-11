@@ -187,20 +187,20 @@ header ul li span {
   padding: 30px;
 }
 
-#section-4 .img-fluid{
+#section-4 .img-fluid {
   width: 64px;
 }
 
-#section-4 .col-6{
+#section-4 .col-6 {
   padding: 3em;
 }
 
-#section-4 .text{
+#section-4 .text {
   font-size: 18px;
   text-align: left;
 }
 
-#container-info{
+#container-info {
   margin-top: 50px;
 }
 
@@ -332,7 +332,7 @@ footer .last-section .content a {
 
 /* CASOS 1 */
 
-#img-case-2{
+#img-case-2 {
   margin-left: 0 !important;
   width: 300px !important;
 }
@@ -370,7 +370,7 @@ footer .last-section .content a {
   margin-left: 160px;
 }
 
-#title-cards{
+#title-cards {
   margin-bottom: 70px;
 }
 
@@ -413,12 +413,13 @@ footer .last-section .content a {
   footer {
     padding: 40px;
   }
+
   footer .container {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   footer .last-section .content {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     display: grid;
     height: auto;
     text-align: center;
@@ -437,6 +438,122 @@ footer .last-section .content a {
 
 @media (max-width: 768px) {
   footer .container {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Para telas menores que 992px (tablets e smartphones) */
+@media (max-width: 991px) {
+  body {
+    padding-top: 80px;
+    /* Espaçamento para o header fixo */
+  }
+
+  #navbar {
+    padding: 5px 15px;
+    /* Reduzir o padding para economizar espaço */
+  }
+
+  header .navbar-brand .logo {
+    width: 160px;
+    /* Reduzir o tamanho do logo */
+  }
+
+  header .navbar-brand .logomit {
+    width: 80px;
+    /* Reduzir o tamanho do logo do MIT */
+  }
+
+  header ul li a {
+    padding: 10px 15px;
+    /* Reduzir o padding dos itens do menu */
+    font-size: 14px;
+    /* Reduzir o tamanho da fonte */
+  }
+
+  #section-1 {
+    min-height: auto;
+    /* Altura mínima automática para se adaptar ao conteúdo */
+    margin-top: 10vh;
+    /* Reduzir o espaço superior */
+  }
+
+  #colunaImg {
+    margin-left: 0;
+    /* Remover margem esquerda para centralizar a imagem */
+  }
+
+  #icons img {
+    width: 25px;
+    /* Reduzir o tamanho dos ícones */
+    margin-top: 20px;
+    /* Ajustar o espaçamento entre os ícones */
+  }
+
+  #img1 {
+    width: 80%;
+    /* Ajustar largura da imagem principal */
+    margin: 0 auto;
+    /* Centralizar a imagem */
+  }
+
+  footer .container {
+    grid-template-columns: repeat(1, 1fr);
+    /* Mudar para uma coluna em vez de grade em dispositivos menores */
+  }
+
+  footer .last-section .content a {
+    margin: 10px 0;
+    /* Ajustar margens dos links */
+  }
+
+  .container.left .imgBox {
+    width: 100%;
+    /* Largura total para imagens em dispositivos menores */
+  }
+
+  .container.left .imgBox img {
+    width: 100%;
+    /* Largura total para imagens em dispositivos menores */
+  }
+}
+
+/* Para telas menores que 576px (smartphones em modo paisagem e menor) */
+@media (max-width: 575px) {
+  header {
+    padding: 5px 10px;
+    /* Reduzir ainda mais o padding do header */
+  }
+
+  header .navbar-brand .logo {
+    width: 140px;
+    /* Reduzir mais o tamanho do logo */
+  }
+
+  header .navbar-brand .logomit {
+    width: 60px;
+    /* Reduzir ainda mais o tamanho do logo do MIT */
+  }
+
+  header ul li a {
+    padding: 8px 12px;
+    /* Reduzir ainda mais o padding dos itens do menu */
+    font-size: 13px;
+    /* Reduzir ainda mais o tamanho da fonte */
+  }
+
+  #btn {
+    width: 100%;
+    /* Largura total para o botão de inscrição */
+  }
+
+  #btntext {
+    width: 100%;
+    /* Largura total para o botão de inscrição no conteúdo */
+  }
+
+  footer .container {
+    padding: 20px;
+    /* Reduzir o padding do footer */
   }
 }
