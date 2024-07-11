@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BootStrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6.3.5/swiper-bundle.min.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <title>Google Education</title>
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <a class="navbar-brand" href="https://edu.google.com/intl/ALL_br/">
+            <img src="img/GoogleEducation.png" class="logo" alt="Logo">
+        </a>
+        <a class="navbar-brand"
+            href="https://professionalprogramsmit.com/pt/mit-professional-education-conhecimento-e-experiencia-brand-por.html?utm_source=Google&utm_medium=c&utm_term=mit&utm_location=9196136&utm_network=g&utm_campaign=B-99999_BR_GG_SE_MPE_Brand_Generic.PT_Brazil&utm_content=brand-generic-brazil&gad_source=1&gclid=CjwKCAjw4ri0BhAvEiwA8oo6F4U32iBo5GyC5QmfLsK297jGwHTpdPsjzzWjMFyjENQwq1PAj40qBxoCawgQAvD_BwE">
+            <img src="img/logoMit.png" class="logomit" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Certificados de Carreira <i class="fa fa-chevron-down"
+                                aria-hidden="true"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#overview">Visão Geral dos Certificados</a>
+                            <a class="dropdown-item" href="#cybersecurity">Cibersegurança</a>
+                            <a class="dropdown-item" href="#data-analytics">Análise de Dados</a>
+                            <a class="dropdown-item" href="#digital-marketing">Marketing Digital & E-commerce</a>
+                            <a class="dropdown-item" href="#it-support">Suporte de TI</a>
+                            <a class="dropdown-item" href="#project-management">Gestão de Projetos</a>
+                            <a class="dropdown-item" href="#ux-design">Design de Experiência do Usuário</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Cursos de IA<i class="fa fa-chevron-down"
+                                aria-hidden="true"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#overview">Tudo sobe IA</a>
+                            <a class="dropdown-item" href="#cybersecurity">IA Generativa para Educadores</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Mais Recursos <i class="fa fa-chevron-down"
+                                aria-hidden="true"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#overview">Treinamento ao Vivo</a>
+                            <a class="dropdown-item" href="#cybersecurity">Desenvolva sua Carreira</a>
+                            <a class="dropdown-item" href="#data-analytics">Desenvolva seu Negócio</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Para Parceiros <i class="fa fa-chevron-down"
+                                aria-hidden="true"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#overview">Colaboradores</a>
+                            <a class="dropdown-item" href="#cybersecurity">Instituições Acadêmicas</a>
+                            <a class="dropdown-item" href="#data-analytics">Organizações Sem Fins Lucrativos</a>
+                            <a class="dropdown-item" href="#digital-marketing">Professores</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="nav-link" href="#">Sobre<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#overview">Novidades e Notícias</a>
+                            <a class="dropdown-item" href="#cybersecurity">Histórias</a>
+                            <a class="dropdown-item" href="#data-analytics">Nossa Missão</a>
+                            <a class="dropdown-item" href="#digital-marketing">Expandindo Oportunidades</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a class="btn btn-primary" id="btn" type="submit"
+            href="https://skillshop.exceedlms.com/student/path/1176018">Inscreve-se Agora</a>
+    </nav>
+</header>
+
+<body>
+    <section class="container" id="section-1">
+        <div class="row">
+            <div class="col-6">
+                <div class="row" data-aos-duration="1500" data-aos-delay="50" data-aos="fade-down">
+                    <h1 id="mini-title">Google for Education Apresenta</h1>
+                </div>
+                <div class="row" data-aos-duration="1000" data-aos-delay="150" data-aos="fade-down">
+                    <h1> Inove no ensino com a Inteligência Artificial </h1>
+                </div>
+                <div class="col-12" data-aos-duration="500" data-aos-delay="50" data-aos="fade-down">
+                    <p id="texto1">
+                        Bem-vindo ao futuro da educação! Ao participar deste curso, você terá a oportunidade de se
+                        atualizar com as mais recentes inovações tecnológicas que estão moldando o futuro da educação.
+                        Inscreva-se hoje e leve a sua didática para o próximo nível transformando sua prática
+                        educacional e impactando positivamente a vida de seus alunos.
+                    </p>
+                    <a class="btn btn-primary" id="btntext" type="submit"
+                        href="https://skillshop.exceedlms.com/student/path/1176018">Inscreve-se Agora</a>
+                </div>
+                <div class="row" id="icons">
+                    <div class="col-1 icons-image">
+                        <img src="icons/gmail.png" alt="Gmail" data-aos-duration="1000" data-aos-delay="100"
+                            data-aos="fade-right">
+                    </div>
+                    <div class="col-1 icons-image">
+                        <img src="icons/google-drive.png" alt="Google Drive" data-aos-duration="1000"
+                            data-aos-delay="200" data-aos="fade-right">
+                    </div>
+                    <div class="col-1 icons-image">
+                        <img src="icons/google-calendar.png" alt="Google Drive" data-aos-duration="1000"
+                            data-aos-delay="300" data-aos="fade-right">
+                    </div>
+                    <div class="col-1 icons-image">
+                        <img src="icons/google-gemini-icon.svg" alt="Google Drive" data-aos-duration="1000"
+                            data-aos-delay="400" data-aos="fade-right">
+                    </div>
+                    <div class="col-1 icons-image">
+                        <img src="icons/chrome.png" alt="Google Drive" data-aos-duration="1000" data-aos-delay="500"
+                            data-aos="fade-right">
+                    </div>
+                    <div class="col-1 icons-image">
+                        <img src="icons/google-photos.png" alt="Google Drive" data-aos-duration="1000"
+                            data-aos-delay="600" data-aos="fade-right">
+                    </div>
+                </div>
+            </div>
+            <div class="col-3" id="colunaImg" data-aos-duration="1500" data-aos-delay="150" data-aos="fade-down">
+                <img id="img1" src="img/GoogleImg.png" alt="Imagem Google">
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="swiper text-center">
+            <h1 id="title-cards">Por que os professores devem adotar o curso de IA da Google?</h1>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="testimonialBox">
+                        <div class="content">
+                            <div class="details">
+                                <div class="imgBx">
+                                    <img class="icon" src="Icons/Tempo.png">
+                                </div>
+                                <h3 style="--clr:#4285F4; ">Otimização de Tempo</h3>
+                            </div>
+                            <p>Automatize tarefas administrativas e repetitivas, priorizando o planejamento e a
+                                interação com os alunos. Aprenda a usar ferramentas de IA para gerenciar sua sala de
+                                aula de forma eficiente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonialBox">
+                        <div class="content">
+                            <div class="details">
+                                <div class="imgBx">
+                                    <img class="icon" src="Icons/Page.png">
+                                </div>
+                                <h3 style="--clr:#FBBC05;text-align: center; ">Aprofundamento do <br>Conhecimento
+                                    Tecnológico <br></h3>
+                            </div>
+                            <p>Mantenha-se atualizado com as tecnologias emergentes em um mundo cada vez mais digital.
+                                Nosso curso oferece novas habilidades técnicas aplicáveis diretamente às suas práticas
+                                pedagógicas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonialBox">
+                        <div class="content">
+                            <div class="details">
+                                <div class="imgBx">
+                                    <img class="icon" src="Icons/Note.png">
+                                </div>
+                                <h3 style="--clr:#4285F4;text-align: center;">Enriquecimento da <br>Experiência
+                                    Profissiona <br></h3>
+                            </div>
+                            <p>Sinta realização ao incorporar novas tecnologias que melhoram o ensino. Amplie seu
+                                repertório acadêmico para oferecer mais aos seus alunos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonialBox">
+                        <div class="content">
+                            <div class="details">
+                                <div class="imgBx">
+                                    <img class="icon" src="Icons/Space.png">
+                                </div>
+                                <h3 style="--clr:#34A853;text-align: center;">Melhoria da Qualidade de Ensino</h3>
+                            </div>
+                            <p>A IA possibilita experiências de aprendizado personalizadas, atendendo às necessidades
+                                individuais dos alunos. Automatize a correção de provas e trabalhos para feedback rápido
+                                e eficiente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonialBox">
+                        <div class="content">
+                            <div class="details">
+                                <div class="imgBx">
+                                    <img class="icon" src="Icons/Person.png">
+                                </div>
+                                <h3 style="--clr:#EA4335;text-align: center;">Aumento do Engajamento <br> dos Alunos
+                                    <br>
+                                </h3>
+                            </div>
+                            <p>Implemente metodologias de ensino interativas com IA. Ofereça acesso a recursos
+                                avançados, como tutores virtuais e simuladores, para aumentar o interesse dos alunos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="case-1">
+        <div class="container text-center justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-8">
+                    <div class="content">
+                        <h2>Planejamento de atividades</h2>
+                        <p>Um professor de ciências do quinto ano utiliza uma <strong>ferramenta de IA</strong> para
+                            planejar atividades
+                            de laboratório. A ferramenta cria fichas de relatório adequadas ao nível de leitura dos
+                            alunos, economizando tempo no planejamento. Isso permite que o professor se
+                            <strong>concentre mais</strong>
+                            em preparar experimentos eficazes e forneça instruções claras aos alunos, capacitando-os
+                            para participar ativamente das aulas práticas.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="imgBox">
+                        <img src="img/Untitled.png" id="img-case-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container left text-center justify-content-center align-items-center">
+        <div class="d-flex row justify-content-center align-items-center">
+            <div class="col-4">
+                <div class="imgBox">
+                    <img src="img/case-2.png">
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="content">
+                    <h2>Ferramentas por Voz</h2>
+                    <p>O uso de ferramentas de texto para voz <strong>transformou a dinâmica</strong> da minha aula de
+                        Língua Portuguesa,
+                        aliviando a ansiedade dos alunos ao ler em voz alta e aumentando sua participação e confiança,
+                        promovendo um ambiente de aprendizado <strong>inclusivo e capacitador.</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="section-4">
+        <div class="row text-center">
+            <h1>Saiba Mais sobre o Curso</h1>
+        </div>
+        <div id="container-info" class="container px-4 text-center justify-content-center align-items-center">
+            <div class="row">
+                <div class="col-6">
+                    <div class="row" data-aos-duration="1500" data-aos-delay="50" data-aos="fade-right">
+                        <div class="col-md-auto my-3 d-flex justify-content-center align-items-top">
+                            <img src="Icons/medalha1.svg" class="img-fluid">
+                        </div>
+                        <div class="col-md-9 text my-3 d-flex">Certificado que você pode apresentar ao seu distrito para
+                            créditos
+                            de desenvolvimento profissional.</div>
+                    </div>
+                </div>
+                <div class="col-6" data-aos-duration="1500" data-aos-delay="150" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-auto my-3 d-flex justify-content-center align-items-top">
+                            <img src="Icons/livroverde2.svg" class="img-fluid">
+                        </div>
+                        <div class="col-md-9 text my-3 d-flex">Metodologia de ensino por meio de exemplos próximos do
+                            seu dia a
+                            dia. Voltado para professores de Ensino Público.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6" data-aos-duration="1500" data-aos-delay="250" data-aos="fade-right">
+                    <div class="row">
+                        <div class="col-md-auto my-3 d-flex justify-content-center align-items-top">
+                            <img src="Icons/relogio.svg" class="img-fluid">
+                        </div>
+                        <div class="col-md-9 text my-3 d-flex">Com apenas 2 horas de duração. Aula 100% online.</div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row" data-aos-duration="1500" data-aos-delay="350" data-aos="fade-left">
+                        <div class="col-md-auto my-3 d-flex justify-content-center align-items-top">
+                            <img src="Icons/chapeu.svg" class="img-fluid">
+                        </div>
+                        <div class="col-md-9 text my-3 d-flex">Aulas por meio de textos de fácil acesso. É livre de
+                            qualquer
+                            custo.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center" data-aos-duration="2500" data-aos-delay="50" data-aos="fade-left">
+            <a href="https://skillshop.exceedlms.com/student/path/1201144-ia-generativa-para-educadores">
+                <button type="button" class="btn btn-primary">Acesse o curso de IA generativa para educadores</button>
+            </a>
+        </div>
+    </section>
+
+    <div class="container" id="section-5">
+        <div class="text-center">
+            <h1 id="title-faq">Como podemos ajudar?</h1>
+        </div>
+        <div class="row">
+            <div class="col-10"></div>
+            <div class="col-2">
+                <button id="btn-faq" type="button" class="btn btn-outline-primary">Mostrar Todas
+                    <img src="icons/arrows-expand.svg" alt="arrows-expand" id="icon-faq">
+                </button>
+            </div>
+        </div>
+        <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Por que escolher “IA generativa do Google”?
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>Inteligência Artificial Generativa para Educadores</strong> é um
+                        curso
+                        autodidata de duas horas, criado para ajudar professores a economizar tempo em tarefas diárias,
+                        personalizar o ensino para atender às necessidades dos alunos e enriquecer aulas e atividades de
+                        maneiras inovadoras com ferramentas de IA generativa — sem necessidade de experiência prévia.
+                        Desenvolvido por especialistas do Google em colaboração com o <strong>MIT RAISE</strong>
+                        (Responsible AI for
+                        Social Empowerment and Education), este curso gratuito é destinado a professores de todas as
+                        disciplinas e oferece experiência prática e ativa. Ao concluir o curso, os professores
+                        <strong>recebem
+                            um certificado</strong>, que pode ser apresentado ao distrito para obtenção de créditos de
+                        desenvolvimento profissional, conforme os requisitos do distrito e do estado.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        O curso é totalmente online?
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Sim, o curso é <strong>totalmente online</strong>, permitindo que você
+                        estude no seu
+                        próprio ritmo e no horário que for mais conveniente para você.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Quais são os pré-requisitos para participar do curso?
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>Não há pré-requisitos técnicos</strong> específicos para
+                        participar do curso. No
+                        entanto, é recomendável que os participantes tenham conhecimentos básicos de informática e
+                        acesso a um computador com conexão à internet.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Qual a aplicação do curso no dia a dia de um professor?
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Este curso de IA generativa para professores fornecerá aplicações
+                        práticas que ajudam a <strong>economizar tempo aumentando a eficiência, produtividade e
+                            criatividade.</strong> O
+                        curso inclui experiência prática usando ferramentas de IA generativa para fazer coisas como
+                        escrever correspondência de classe (mensagens, e-mails, boletins informativos), criar avaliações
+                        e fornecer feedback, diferenciar instruções para atender às várias necessidades dos alunos e
+                        criar estratégias instrucionais para tornar as aulas mais envolventes para os alunos.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        O curso terá um certificado?
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Ao concluir o curso, os professores <strong>recebem um certificado
+                        </strong> que pode ser
+                        apresentado ao distrito para obtenção de créditos de desenvolvimento profissional, conforme os
+                        requisitos específicos do distrito e do estado.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+<footer>
+    <div class="container">
+        <div class="sec quicklinks">
+            <h2>Certificados de Carreira</h2>
+            <li><a href="">Noções básicas de IA</a></li>
+            <li><a href="">Certificados de Segurança Cibernética</a></li>
+            <li><a href="">Certificado em Análise de Dados</a></li>
+            <li><a href="">Certificado em Marketing Digital e E-commerce</a></li>
+            <li><a href="">Certificados de TI</a></li>
+            <li><a href="">Certificado de Gestão de Projetos</a></li>
+            <li><a href="">Certificado em Design UX</a></li>
+            <li><a href="">IA generativa para educadores</a></li>
+        </div>
+        <div class="sec quicklinks">
+            <h2>Para Parceiros</h2>
+            <li><a href="">Empregadores</a></li>
+            <li><a href="">Instituições acadêmicas</a></li>
+            <li><a href="">Para organizações sem fins lucrativos e comunitárias</a></li>
+            <li><a href="">Educadores</a></li>
+        </div>
+        <div class="sec quicklinks">
+            <h2>Expandindo a oportunidade</h2>
+            <li><a href="">Veteranos e famílias militares</a></li>
+            <li><a href="">Comunidade Latina</a></li>
+            <li><a href="">Empresas de propriedade de mulheres</a></li>
+            <li><a href="">Mulheres negras lideram</a></li>
+            <li><a href="">Impactado pela Justiça</a></li>
+        </div>
+        <div class="sec quicklinks">
+            <h2>Programas</h2>
+            <li><a href="">Treinadores Digitais</a></li>
+            <li><a href="">Habilidades Digitais Aplicadas</a></li>
+            <li><a href="">Aprendendo no YouTube</a></li>
+        </div>
+        <div class="sec quicklinks">
+            <h2>Mais iniciativas do Google</h2>
+            <li><a href="">Google para pequenas empresas</a></li>
+            <li><a href="">Google para Startups</a></li>
+            <li><a href="">Google para Educação</a></li>
+            <li><a href="">Desenvolvedores do Google</a></li>
+            <li><a href="">Google.org</a></li>
+            <li><a href="">Aprendendo com o Google</a></li>
+        </div>
+    </div>
+    <div class="last-section">
+        <div class="content">
+            <img src="Icons/Google-Logo.svg">
+            <a href="">Sobre o Google</a>
+            <a href="">Produtos do Google</a>
+            <a href="">Privacidade</a>
+            <a href="">Termos</a>
+            <a href="">Mapa do site</a>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="JS/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-TLT7HInHQBug+kw5J3Jwna+Ax4XgaQrjfnv1lgEveWx0FsUoBKL0fob2GmFqbr8/"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 0, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 900, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    });
+</script>
+
+<script src="https://kit.fontawesome.com/3aa575020a.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper@6.3.5/swiper-bundle.min.js"></script>
+<script type="module">
+    var swiper = new Swiper('.swiper', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 0,
+            modifier: 2,
+            slideShadows: true,
+        },
+        loop: true,
+    });
+</script>
+<style>
+    #testimonials {
+        padding-top: 10vh;
+        margin-bottom: 30px;
+    }
+
+    .swiper {
+        width: 100%;
+        padding-top: 110px;
+        padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 320px;
+        background: #fff;
+        border-radius: 10px;
+        margin: 0 20px;
+        border: 1px solid #ebebeb;
+        box-shadow: 3px 3px 3px #ebebeb;
+    }
+
+    .testimonialBox {
+        position: relative;
+        width: 100%;
+        padding: 40px;
+        color: #999;
+        height: 400px;
+    }
+
+    .testimonialBox .details {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .testimonialBox .details .imgBx {
+        position: absolute;
+        display: block;
+        width: 110px;
+        height: 110px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    .testimonialBox .details .imgBx img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .testimonialBox .details h3 {
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: var(--clr);
+        line-height: 1.1em;
+        position: absolute;
+        margin-top: 60%;
+        text-align: center;
+    }
+
+    .testimonialBox .content p {
+        margin-top: 130px;
+        text-align: center;
+    }
+
+    .swiper-container-3d .swiper-slide-shadow-left,
+    .swiper-container-3d .swiper-slide-shadow-right {
+        background-image: none;
+    }
+</style>
+
+</html>
