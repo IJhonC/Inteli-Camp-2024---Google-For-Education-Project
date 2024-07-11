@@ -10,3 +10,4 @@ document.getElementById('btn-faq').addEventListener('click', function () {
 document.getElementById('btn-faq').addEventListener('click', function () {
   $('.accordion .collapse').collapse('hide');
 });
+
