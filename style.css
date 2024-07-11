@@ -348,7 +348,7 @@ footer .last-section .content a {
 
 #case-1 .content {
   padding: 30px;
-  text-align: justify;
+  text-align: left;
 }
 
 #case-1 .content h2 {
@@ -384,7 +384,7 @@ footer .last-section .content a {
 
 .container.left .content {
   padding: 30px;
-  text-align: justify;
+  text-align: left;
 }
 
 .container.left .content h2 {
@@ -432,6 +432,24 @@ footer .last-section .content a {
 
   footer .last-section .content a {
     margin-bottom: 20px;
+  }
+
+  #case-1 .imgBox img {
+    width: 100%;
+    object-fit: cover;
+    margin-left: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #case-2 .imgBox img {
+    margin-left: 50px !important;
+    width: 100% !important;
+    justify-items: center;
+    justify-self: center;
+    justify-content: center;
   }
 }
 

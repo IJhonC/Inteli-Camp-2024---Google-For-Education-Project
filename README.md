@@ -1,1 +1,0 @@
-# Inteli-Camp-2024---Google-For-Education-Project
